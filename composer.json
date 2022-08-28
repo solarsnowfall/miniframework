@@ -1,0 +1,25 @@
+{
+  "name": "solarsnowfall/miniframework",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Travis Miller",
+      "email": "travis@twooutrally.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Solar\\MiniFramework\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Solar\\MiniFramework\\Test\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
